@@ -1,0 +1,84 @@
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 1500px;
+}
+
+.option1 {
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.link1 {
+    color: #00F;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.images {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.paynow__signInButton {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.btn-xl1 {
+    margin-left: 35px;
+}
+
+.btn-xl2 {
+    margin-left: 25px;
+}
+
+.btn-xl3 {
+    margin-left: 20px;
+}
+
+.btn-xl4 {
+    margin-left: 25px;
+}
+
+.btn-xl5 {
+    margin-left: 25px;
+}
+
+.btn-xl6 {
+    margin-left: 18px;
+    width: 100%;
+}
